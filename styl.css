@@ -1,6 +1,9 @@
 /* adds style to the body */
 body {
     background-color: rgb(21, 21, 117);
+    background-image: url(pictures/spider-web-309451_960_720.png);
+    background-size: 100px;
+    background-repeat: repeat;
 }
 
 /* adds style to the Header */
@@ -57,6 +60,7 @@ a:active {
 div {
     display: flex;
     flex-direction: row;
+    
 }
 
 h1 {
@@ -81,6 +85,7 @@ img {
 }
 
 .missionStatement {
+    
     display: flex;
     margin: 0 10px;
     padding-left: 10px;
@@ -89,5 +94,46 @@ img {
     border-style: solid;
     border-width: 10px;
     border-radius: 20px;
+    border-color: black;
+}
+
+.aboutMeSection{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: red;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 20px;
+    border-color: black;
+}
+
+.hobbiesAndInterests {
+    display: flex;
+    flex-direction: column;
+    margin: 10px; 
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: red;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 20px;
+    border-color: black;
+
+}
+.contentHeaders {
+    margin: -10px;
+    padding: 10px;
+    border: 0px 0px 5px 20px;  
+    border-style: none none solid none;
     border-color: black;
 }
